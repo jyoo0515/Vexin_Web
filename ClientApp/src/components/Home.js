@@ -35,7 +35,7 @@ export class Home extends Component {
         url: "https://engexam.azurewebsites.net/", disabled: false},
       {title: "새내기자료집", description: "대학생활이 낯선 신입생 여러분들을 준비한 공과대학 입문 가이드!",
         url: "https://url.kr/gd71jp", disabled: false},
-      {title: "Vector 장학금 플랫폼 beta", description: "찾아보기 힘들었던 장학금, 이제는 하나의 플랫폼에서 손쉽게\n확인하세요 :)",
+      {title: "Vector 장학금 플랫폼 beta", description: "찾아보기 힘들었던 장학금, 이제는 하나의 플랫폼에서 손쉽게 확인하세요 :)",
             url: "https://www.notion.so/Vector-beta-765eef0e0e4f4238a8287fd50fb899be", disabled: false
         },
         { title: "Battle Campus", description: "송도에서 펼쳐지는 어떤게임\n\nComing Soon...", url: "#", disabled: true },
