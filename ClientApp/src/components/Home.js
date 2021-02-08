@@ -27,6 +27,8 @@ export class Home extends Component {
     this.setState({isOpen: !this.state.isOpen});
   }
 
+  //http://13.125.206.169/play
+
   selectInfo = (i) => {
     const linkInfo = [
       {title: "공대능력평가", description: "많은 새내기들을 혼란에 빠뜨렸던 공대능력평가, 드디어 공개됩니다.\n즐겨주세요 :)",
@@ -36,7 +38,7 @@ export class Home extends Component {
       {title: "Vector 장학금 플랫폼 beta", description: "찾아보기 힘들었던 장학금, 이제는 하나의 플랫폼에서 손쉽게\n확인하세요 :)",
             url: "https://www.notion.so/Vector-beta-765eef0e0e4f4238a8287fd50fb899be", disabled: false
         },
-        { title: "Battle Campus", description: "송도에서 펼쳐지는 어떤게임\n\nComing Soon...", url: "http://13.125.206.169/play", disabled: true },
+        { title: "Battle Campus", description: "송도에서 펼쳐지는 어떤게임\n\nComing Soon...", url: "#", disabled: true },
       {title: "20학번 안내벡서", description: "신촌 새내기가 된 20학번들을 위한 유익한 안내Vec서\n\n준비 중입니다!",
         url: "https://engineerexam.azurewebsites.net/", disabled: true},
       {title: "Vector Youtube", description: "공과대학 OT, 즐거운 컨텐츠, 유익한 정보가 영상으로 제공됩니다.",
