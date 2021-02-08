@@ -33,6 +33,11 @@
 	transform: scale(1);
 }
 
+.card-image{
+	max-width: 300px;
+	height: auto;
+}
+
 .card:hover{
 	transform: scale(0.95);
 	cursor: pointer;
