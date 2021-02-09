@@ -34,7 +34,7 @@ export class Home extends Component {
       {title: "공대능력평가", description: "많은 새내기들을 혼란에 빠뜨렸던 공대능력평가, 드디어 공개됩니다.\n즐겨주세요 :)",
         url: "https://engexam.azurewebsites.net/", disabled: false},
       {title: "새내기자료집", description: "대학생활이 낯선 신입생 여러분들을 준비한 공과대학 입문 가이드!",
-        url: "https://url.kr/s1nd7l", disabled: false},
+        url: "https://url.kr/qoe25y", disabled: false},
       {title: "Vector 장학금 플랫폼 beta", description: "찾아보기 힘들었던 장학금, 이제는 하나의 플랫폼에서 손쉽게 확인하세요 :)",
             url: "https://www.notion.so/Vector-beta-765eef0e0e4f4238a8287fd50fb899be", disabled: false
         },
