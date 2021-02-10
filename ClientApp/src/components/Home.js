@@ -44,7 +44,7 @@ export class Home extends Component {
         url: "https://www.notion.so/Vector-beta-765eef0e0e4f4238a8287fd50fb899be", disabled: false
       },
       {
-        title: "Battle Campus", description: "송도에서 펼쳐지는 어떤게임\n\nComing Soon...",
+        title: "Sweet Campus", description: "송도에서 펼쳐지는 어떤게임\n\nComing Soon...",
         url: "#", disabled: true
       },
       {
