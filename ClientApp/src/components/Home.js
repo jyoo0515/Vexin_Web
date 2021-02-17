@@ -7,6 +7,7 @@ import thumb2 from './img/Scholarship.png';
 import thumb3 from './img/bg.jpg';
 import thumb4 from './img/20_Guide.png';
 import thumb5 from './img/Vector_Youtube.png';
+import thumb6 from './img/songdo.png';
 import tempImg from './img/Coming_Soon.png';
 
 export class Home extends Component {
@@ -54,6 +55,10 @@ export class Home extends Component {
       {
         title: "Vector Youtube", description: "공과대학 OT, 즐거운 컨텐츠, 유익한 정보가 영상으로 제공됩니다.",
         url: "https://www.youtube.com/channel/UCwe1AuUxppCfrORlrWjdYjQ", disabled: false
+      },
+      {
+        title: "두근두근 송도 시뮬레이션", description: "새내기들을 위한 송도 간접체험의 기회!",
+        url:"https://songdosimulation.azurewebsites.net/", disabled: false
       }
     ]
     this.setState({
@@ -75,9 +80,13 @@ export class Home extends Component {
         </div>
 
         <div className="card-list">
-          <Card className={6} onClick={() => { this.selectInfo(3); this.toggle(); }} />
+          <Card className={7} onClick={() => { this.selectInfo(3); this.toggle(); }} />
           <Card className={4} onClick={() => { this.selectInfo(4); this.toggle(); }} />
           <Card className={5} onClick={() => { this.selectInfo(5); this.toggle(); }} />
+        </div>
+
+        <div className="card-list">
+          <Card className={6} onClick={() => { this.selectInfo(6); this.toggle(); }} />
         </div>
         
         <Modal isOpen={this.state.isOpen} toggle={this.toggle}>
@@ -103,7 +112,7 @@ export class Home extends Component {
 
 export class Card extends Component {
   render() {
-    const imgList = [thumb0, thumb1, thumb2, thumb3, thumb4, thumb5, tempImg];
+    const imgList = [thumb0, thumb1, thumb2, thumb3, thumb4, thumb5, thumb6, tempImg];
 
     return(
       <div className="card-container" onClick={this.props.onClick}>
